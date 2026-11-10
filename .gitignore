@@ -1,0 +1,50 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Large data directories (only keep code)
+datasets/
+outputs/
+embeddings/
+features/
+image/
+samples/
+
+# IDE and local config
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Frontend dependencies
+src/frontend/node_modules/
+src/frontend/dist/
+
+# Runtime files
+.qilin/
+*.log
+*.pid
+# Model indexes and binaries
+src/recall/index/
+src/backend/online/deploy/
+*.bin
+*.faiss
+*.pkl
+*.npy
+*.pth
+*.pt
+
+# Test scripts
+tests/
+scripts/
+
+*storybook.log
+storybook-static
